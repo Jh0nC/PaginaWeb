@@ -24,19 +24,29 @@
         <option value="#">Ordenar por antiguedad</option>
     </select>
     <!-- apartado de los vehiculos -->
-    <main>
+    <main id="vista_previa">
         <!-- clasificacion de los autos -->
-        <ul>
-            <li>destacado</li>
-            <li>2 puertas</li>
-            <li>4 puertas</li>
-            <li>motocicletas</li>
-            <li>especial</li>
-        </ul>
-        <!-- galeria de vehiculos, segun clasificacion seleccionada -->
-        <div class="vista_previa_vehiculo">
-            <!-- plantilla de la vista previa del vehiculo -->
+        <div class="filtro_vehiculos">
+            <ul>
+                <li>destacado</li>
+                <li>2 puertas</li>
+                <li>4 puertas</li>
+                <li>motocicletas</li>
+                <li>especial</li>
+            </ul>
         </div>
+        <!-- galeria de vehiculos, segun clasificacion seleccionada -->
+        <div class="item">
+            <figure>
+                <img src="img/car1.jpg" alt="">
+            </figure>
+            <div class="info-carro">
+                <h1>nombre carro</h1>
+                <p class="precio"><span>PRECIO</span>$10000000</p>
+                <button>comprar</button>
+            </div>
+        </div>
+        <!-- plantilla de la vista previa del vehiculo -->
     </main>
 </body>
 </html>
