@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    background: url(#);
+}
+#panel_inicial {
+    width: 100%;
+    height: 300px;
+    /* imagen */
+    background: url(../img/lambo_negro_frente_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* borde */
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+#filtro_vehiculos {
+    list-style: circle;
+    display: felx;
+}
+
+div div ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+div div ul li {
+    background: red;
+    padding: 7px;
+}
+
+#posicion_txt_panel {
+    background: none;
+}
+
+#contenedor_hrz {
+    margin: auto;
+    max-width: 70%;
+    align-items: center;
+    border: 2px solid rgb(112, 0, 0);
+    background: rgb(218, 0, 0);
+}
+
+#caja_filtro {
+    display: flex;
+    background: white;
+    margin: auto;
+    max-width: 70%;
+    justify-content: right;
+}
+
+/* contenedor de los vehiculos */
+#vista_previa {
+    display: flex;
+}
+
+.panel_vehiculos {
+    display: block;
+    margin: 5px;
+    background: white;
+}
