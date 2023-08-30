@@ -1,54 +1,54 @@
 suv
-hyunday kona $23,475
-kia niro $27,915
-kia soul $21,215
-mazda cx-30 $25,000
-volkswagen taos $25,450
-Luxury: bmw x1 $41,000
-Luxury: volvo xc40 $41,295
+hyunday kona $23,475 -
+kia niro $27,915 -
+kia soul $21,215 -
+mazda cx-30 $25,000 -
+volkswagen taos $25,450 -
+Luxury: bmw x1 $41,000 -
+Luxury: volvo xc40 $41,295 -
 
 autos
-nissan versa $17,075
-honda civic $24,845
-hyundai elantra n $36,000
-mazada 3 $25,335
-volkswagen jetta gli $29,235
-honda accord $29,000
-hyundai sonata $28,000
+nissan versa $17,075 -
+honda civic $24,845 -
+hyundai elantra n $36,000 -
+mazada 3 $25,335 -
+volkswagen jetta gli $29,235 -
+honda accord $29,000 -
+hyundai sonata $28,000 -
 
 electricos
-bmw i4 $52,995
-tesla model 3 $41,880
-polestar 2 $51,300
-ford mustang mach-e $46,895
-taycan turbo s $272,000
-tesla model x $89,880
+bmw i4 $52,995 -
+tesla model 3 $41,880 -
+polestar 2 $51,300 -
+ford mustang mach-e $46,895 -
+taycan turbo s $272,000 -
+tesla model x $89,880 -
 
 atv
-Can-Am Outlander X MR 850 $13,699
-Yamaha Grizzly 700 $12,399
-Polaris Sportsman XP 1000 $15,499
-Arctic Cat Alterra 600 $11,599
+Can-Am Outlander X MR 850 $13,699 -
+Yamaha Grizzly 700 $12,399 -
+Polaris Sportsman XP 1000 $15,499 -
+Arctic Cat Alterra 600 $11,599 -
 
 especiales
-submarino: nemo 1 $895,000
-aerodeslizador $450,000
-moto anfibia $180,000
-tanque: Abrams M1A2 $35,000,000
-caza: F-35 Joint Strike Fighter $78,000,000
+submarino: nemo 1 $895,000 -
+aerodeslizador $450,000 -
+moto anfibia $180,000 -
+tanque: Abrams M1A2 $35,000,000 -
+caza: F-35 Joint Strike Fighter $78,000,000 -
 
 motos
-DUCATI PANIGALE V4 R 2023 $40,000
-BMW M 1000 R 2023 $30,000
-APRILIA RS 660 EXTREMA 2023 $12,000
-KAWASAKI NINJA ZX-6R 2023 $14,000
-YAMAHA YZF-R1M 2023 $23,100
+DUCATI PANIGALE V4 R 2023 $40,000 -
+BMW M 1000 R 2023 $30,000 -
+APRILIA RS 660 EXTREMA 2023 $12,000 -
+KAWASAKI NINJA ZX-6R 2023 $14,000 -
+YAMAHA YZF-R1M 2023 $23,100 -
 
 superautos
-Maclaren f1 $20,000,000
-bugati veyron super sport $2,100,000
-la ferrari $1,300,000
-maclaren p1 $1,050,000
-porche 918 spyder $850,000
-koenigsegg regera $2,000,000
-huracan performante $250,000
+Maclaren f1 $20,000,000 -
+bugati veyron super sport $2,100,000 -
+la ferrari $1,300,000 -
+maclaren p1 $1,050,000 -
+porche 918 spyder $850,000 -
+koenigsegg regera $2,000,000 -
+huracan performante $250,000 -
