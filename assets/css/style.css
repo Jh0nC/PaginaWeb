@@ -13,6 +13,7 @@ body {
 
 #margen_superior {
     height: 3px;
+    width: 100%;
 }
 
 #panel_inicial {
@@ -28,21 +29,40 @@ body {
     margin-bottom: 3px;
     border-top: 2px solid; border-bottom: 2px solid;
     border-color: black;
+    position: absolute;
+    z-index: 1;
 }
 
 #posicion_txt_panel {
     display: block;
     background: none;
     position: relative;
-    top: 20%;     left: 20%;
+    top: 10%;     left: 14%;
 }
 
-#titulo_1 {
-    font-family: 'Oleo Script Swash Caps', cursive;
-    font-family: 'Ubuntu', sans-serif;
-    font-family: 'Yellowtail', cursive;
+#img_panel {
+    display: flex;
+    max-width: 50%;
+}
+
+#comentario_titulo_blanco {
     color: white;
-    font-size: 70px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    display: block;
+    text-transform: uppercase;
+    text-shadow: 2px 4px 10px red;
+    -webkit-text-stroke: 1px black;
+}
+
+#comentario_titulo_rojo {
+    color: red;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    display: block;
+    text-transform: uppercase;
+    text-shadow: 2px 4px 10px red;
+    -webkit-text-stroke: 0.8px black;
 }
 
 /* filtros y seccion */
@@ -69,6 +89,9 @@ div div ul li {
     align-items: center;
     border: 2px solid rgb(112, 0, 0);
     background: rgb(218, 0, 0);
+    position: relative;
+    z-index: 2;
+    top: 250px;
 }
 
 #caja_filtro {
@@ -76,15 +99,26 @@ div div ul li {
     margin: auto;
     max-width: 70%;
     justify-content: right;
+    position: relative;
+    z-index: 2;
+    top: 245px;
 }
 
 /* contenedor de los vehiculos */
 #vista_previa {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
 }
 
 .panel_vehiculos {
     display: block;
-    margin: 5px;
+    margin: 3.5px;
     background: white;
+    border-radius: 10px;
+}
+
+/* footer */
+footer {
+    position: relative;
+    background: black;
 }
