@@ -67,22 +67,25 @@ body {
 
 /* filtros y seccion */
 
-#filtro_vehiculos {
-    list-style: circle;
-    display: felx;
+#caja_filtro {
+    display: flex;
+    margin: auto;
+    max-width: 70%;
+    justify-content: right;
+    position: relative;
+    z-index: 2;
+    top: 245px;
 }
 
-div div ul {
-    list-style: none;
+#filtro_vehiculos {
     display: flex;
     justify-content: space-around;
 }
 
-div div ul li {
-    background: red;
-    padding: 7px;
+.boton_filtro_main {
 }
 
+/* contenedor de los vehiculos */
 #contenedor_hrz {
     margin: auto;
     max-width: 70%;
@@ -94,17 +97,6 @@ div div ul li {
     top: 250px;
 }
 
-#caja_filtro {
-    display: flex;
-    margin: auto;
-    max-width: 70%;
-    justify-content: right;
-    position: relative;
-    z-index: 2;
-    top: 245px;
-}
-
-/* contenedor de los vehiculos */
 #vista_previa {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
