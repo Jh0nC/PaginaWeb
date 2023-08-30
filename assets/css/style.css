@@ -78,11 +78,26 @@ body {
 }
 
 #filtro_vehiculos {
+    width: 100%;
+    height: 40px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
-.boton_filtro_main {
+.boton_filtro {
+    text-transform: uppercase;
+    width: 12%;
+    height: 90%;
+    color: white;
+    background: red;
+    border: 2px rgb(112, 0, 0) solid;
+}
+
+.boton_filtro:hover {
+    background: rgb(214, 214, 214);
+    color: black;
+    border: 2px white solid;
 }
 
 /* contenedor de los vehiculos */
@@ -99,7 +114,7 @@ body {
 
 #vista_previa {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .panel_vehiculos {
