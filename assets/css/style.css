@@ -1,7 +1,5 @@
 * {
     margin: 0;
-    background-attachment: scroll;
-    background-repeat: repeat;
 }
 
 body {
@@ -12,7 +10,7 @@ body {
 /* panel de entrada */
 
 #margen_superior {
-    height: 3px;
+    height: 7px;
     width: 100%;
 }
 
@@ -27,8 +25,8 @@ body {
     background-position: center;
     /* borde */
     margin-bottom: 3px;
-    border-top: 2px solid; border-bottom: 2px solid;
-    border-color: black;
+    border-top: 3px black solid; 
+    border-bottom: 3px black solid;
     position: absolute;
     z-index: 1;
 }
@@ -71,10 +69,26 @@ body {
     display: flex;
     margin: auto;
     max-width: 70%;
+    height: 30px;
     justify-content: right;
     position: relative;
     z-index: 2;
     top: 245px;
+}
+
+#select_filtro {
+    width: 30%;
+    height: 100%;
+    color: white;
+    background: rgb(167, 0, 0);
+    border: 2px rgb(112, 0, 0) solid;
+    border-radius: 3px;
+}
+
+#select_filtro:hover {
+    background: rgb(214, 214, 214);
+    color: black;
+    border: 2px white solid;
 }
 
 #filtro_vehiculos {
@@ -90,8 +104,9 @@ body {
     width: 12%;
     height: 90%;
     color: white;
-    background: red;
+    background: rgb(167, 0, 0);
     border: 2px rgb(112, 0, 0) solid;
+    border-radius: 3px;
 }
 
 .boton_filtro:hover {
@@ -110,22 +125,41 @@ body {
     position: relative;
     z-index: 2;
     top: 250px;
+    
 }
 
 #vista_previa {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
+/* vehiculos */
 .panel_vehiculos {
     display: block;
-    margin: 3.5px;
+    margin: auto;
     background: white;
     border-radius: 10px;
+    width: 25%;
+    height: 180px;
+    padding: 15px;
+    margin: 20px;
 }
 
 /* footer */
-footer {
-    position: relative;
+
+#espacio_footer {
+    width: 100%;
+    height: 480px;
+}
+
+footer {    
+    position: fixed;
     background: black;
+    color: white;
+    width: 100%;
+    height: 200px;
+    bottom: 0;
+    margin-top: 1400px;
+    border-top: 2px rgb(218, 0, 0) solid;
 }
