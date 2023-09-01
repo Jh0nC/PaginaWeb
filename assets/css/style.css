@@ -92,11 +92,12 @@ body {
 }
 
 #filtro_vehiculos {
-    width: 100%;
+    width: 95%;
     height: 40px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin: auto;
 }
 
 .boton_filtro {
@@ -120,12 +121,12 @@ body {
     margin: auto;
     max-width: 70%;
     align-items: center;
-    border: 2px solid rgb(112, 0, 0);
-    background: rgb(218, 0, 0);
+    justify-content: center;
+    border: 2px rgb(218, 0, 0) solid;
+    background: rgb(56, 0, 0);
     position: relative;
     z-index: 2;
     top: 250px;
-    
 }
 
 #vista_previa {
@@ -139,11 +140,48 @@ body {
     display: block;
     margin: auto;
     background: white;
-    border-radius: 10px;
-    width: 25%;
+    width: 30.3%;
     height: 180px;
-    padding: 15px;
-    margin: 20px;
+    margin: 5px;
+    border: 2px white solid;
+}
+
+.panel_vehiculos figure {
+    display: flex;
+    max-width: 100%;
+    height: 80%;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    border: 1px white solid;
+}
+
+.panel_vehiculos figure img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.info-carro {
+    display: flex;
+    width: 100%;
+    height: 19%;
+    background: black;
+    align-items: center;
+}
+
+.info-carro h1 {
+    color: white;
+    font-size: 15px;
+}
+
+.info-carro button {
+    height: 95%;
+    width: 30%;
+    text-align: center;
+}
+
+.info-carro button:hover {
+    
 }
 
 /* footer */
@@ -155,7 +193,7 @@ body {
 
 footer {    
     position: fixed;
-    background: black;
+    background: rgb(56, 0, 0);
     color: white;
     width: 100%;
     height: 200px;
