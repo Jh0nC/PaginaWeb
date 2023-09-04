@@ -16,6 +16,7 @@ volkswagen jetta gli $29,235 -
 honda accord $29,000 -
 hyundai sonata $28,000 -
 
+
 electricos
 bmw i4 $52,995 -
 tesla model 3 $41,880 -
@@ -46,7 +47,7 @@ YAMAHA YZF-R1M 2023 $23,100 -
 
 superautos
 Maclaren f1 $20,000,000 -
-bugati veyron super sport $2,100,000 -
+$2,100,0bugati veyron super sport 00 -
 la ferrari $1,300,000 -
 maclaren p1 $1,050,000 -
 porche 918 spyder $850,000 -
