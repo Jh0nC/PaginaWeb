@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
-
+    <link rel="stylesheet" href="assets/css/style_vista_previa.css">
     <!-- importe de las tipografias -->    
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Ubuntu:wght@500&family=Yellowtail&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
     </style>
-
     <title>Legendary MotorSport</title>
 </head>
 <script>
@@ -47,13 +47,24 @@
         </div>
         <!-- galeria de vehiculos, segun clasificacion seleccionada -->
         <main id="vista_previa">
+            <!-- plantilla -->
+            <div class="panel_vehiculos">
+                <figure>
+                    <img src="#" alt="imagen_vehiculo">
+                </figure>
+                <div class="info-carro">
+                    <h1>Plantilla</h1>
+                    <a target="_self" class="link_compra_vehiculo" href="assets/paginas_vehiculos/plantillaCompraVehiculo.html">$00,00</a>
+                </div>
+            </div>
+            <!-- plantilla -->
             <div class="panel_vehiculos">
                 <figure>
                     <img src="assets/img_vehiculos/SUV/hyundai-kona.jpg" alt="imagen_vehiculo">
                 </figure>
                 <div class="info-carro">
                     <h1>Hyunday Kona</h1>
-                    <button>$23,475</button>
+                    <a target="_self" class="link_compra_vehiculo" href="#">$23,475</a>
                 </div>
             </div>
             <div class="panel_vehiculos">
@@ -62,7 +73,7 @@
                 </figure>
                 <div class="info-carro">
                     <h1>Nissan Versa</h1>
-                    <button>$17,075</button>
+                    <a target="_self" class="link_compra_vehiculo" href="#">$17,075</a>
                 </div>
             </div>
             <div class="panel_vehiculos">
@@ -71,7 +82,7 @@
                 </figure>
                 <div class="info-carro">
                     <h1>BMW I4</h1>
-                    <button>$52,995</button>
+                    <a target="_self" class="link_compra_vehiculo" href="#">$52,995</a>
                 </div>
             </div>
             <div class="panel_vehiculos">
@@ -80,7 +91,7 @@
                 </figure>
                 <div class="info-carro">
                     <h1>Can-Am Outlander X MR 850</h1>
-                    <button>$13,699</button>
+                    <a target="_self" class="link_compra_vehiculo" href="#">$13,699</a>
                 </div>
             </div>
             <div class="panel_vehiculos">
@@ -89,7 +100,7 @@
                 </figure>
                 <div class="info-carro">
                     <h1>Ducati Panigale V4 R 2023</h1>
-                    <button>$40,000</button>
+                    <a target="_self" class="link_compra_vehiculo" href="#">$40,000</a>
                 </div>
             </div>
             <div class="panel_vehiculos">
@@ -98,7 +109,7 @@
                 </figure>
                 <div class="info-carro">
                     <h1>Maclaren F1</h1>
-                    <button>$20,000,000</button>
+                    <a target="_self" class="link_compra_vehiculo" href="#">$20,000,000</a>
                 </div>
             </div>
             <div class="panel_vehiculos">
@@ -107,7 +118,7 @@
                 </figure>
                 <div class="info-carro">
                     <h1>Kia Niro</h1>
-                    <button>$27,915</button>
+                    <a target="_self" class="link_compra_vehiculo" href="#">$27,915</a>
                 </div>
             </div>
             <div class="panel_vehiculos">
@@ -116,7 +127,7 @@
                 </figure>
                 <div class="info-carro">
                     <h1>Kia Soul</h1>
-                    <button>$21,215</button>
+                    <a target="_self" class="link_compra_vehiculo" href="#">$21,215</a>
                 </div>
             </div>
             <div class="panel_vehiculos">
@@ -125,79 +136,79 @@
                 </figure>
                 <div class="info-carro">
                     <h1>Honda Civic</h1>
-                    <button>$24,845</button>
+                    <a target="_self" class="link_compra_vehiculo" href="#">$24,845</a>
                 </div>
             </div>
             <div class="panel_vehiculos">
                 <figure>
-                    <img src="img/car1.jpg" alt="imagen_vehiculo">
+                    <img src="assets/img_vehiculos/autos/hyundai-elantra-n.jpg" alt="imagen_vehiculo">
                 </figure>
                 <div class="info-carro">
                     <h1>Hyundai Elantra N</h1>
-                    <button>$36,000</button>
+                    <a target="_self" class="link_compra_vehiculo" href="#">$36,000</a>
                 </div>
             </div>
             <div class="panel_vehiculos">
                 <figure>
-                    <img src="img/car1.jpg" alt="imagen_vehiculo">
+                    <img src="assets/img_vehiculos/electricos/tesla-model-3.jpeg" alt="imagen_vehiculo">
                 </figure>
                 <div class="info-carro">
                     <h1>Tesla Model 3</h1>
-                    <button>$41,880</button>
+                    <a target="_self" class="link_compra_vehiculo" href="#">$41,880</a>
                 </div>
             </div>
             <div class="panel_vehiculos">
                 <figure>
-                    <img src="img/car1.jpg" alt="imagen_vehiculo">
+                    <img src="assets/img_vehiculos/ATV/Yamaha Grizzly 700.jpg" alt="imagen_vehiculo">
                 </figure>
                 <div class="info-carro">
                     <h1>Yamaha Grizzly 700</h1>
-                    <button>$12,399</button>
+                    <a target="_self" class="link_compra_vehiculo" href="#">$12,399</a>
                 </div>
             </div>
             <div class="panel_vehiculos">
                 <figure>
-                    <img src="img/car1.jpg" alt="imagen_vehiculo">
+                    <img src="assets/img_vehiculos/especiales/nemo 1.jpeg" alt="imagen_vehiculo">
                 </figure>
                 <div class="info-carro">
                     <h1>Submarino: Nemo 1</h1>
-                    <button>$895,000</button>
+                    <a target="_self" class="link_compra_vehiculo" href="#">$895,000</a>
                 </div>
             </div>
             <div class="panel_vehiculos">
                 <figure>
-                    <img src="img/car1.jpg" alt="imagen_vehiculo">
+                    <img src="assets/img_vehiculos/motos/bmw_m_1000.webp" alt="imagen_vehiculo">
                 </figure>
                 <div class="info-carro">
                     <h1>BMW M 1000 R 2023</h1>
-                    <button>$30,000</button>
+                    <a target="_self" class="link_compra_vehiculo" href="#">$30,000</a>
                 </div>
             </div>
             <div class="panel_vehiculos">
                 <figure>
-                    <img src="img/car1.jpg" alt="imagen_vehiculo">
+                    <img src="assets/img_vehiculos/superautos/bugati_veyron.jpg" alt="imagen_vehiculo">
                 </figure>
                 <div class="info-carro">
                     <h1>bugati veyron super sport</h1>
-                    <button>$2,100,000</button>
+                    <a target="_self" class="link_compra_vehiculo" href="#">$2,100,000</a>
                 </div>
             </div>
             <div class="panel_vehiculos">
                 <figure>
-                    <img src="img/car1.jpg" alt="imagen_vehiculo">
+                    <img src="assets/img_vehiculos/superautos/la_ferrari.avif" alt="imagen_vehiculo">
                 </figure>
                 <div class="info-carro">
                     <h1>La Ferrari</h1>
-                    <button>$1,300,000</button>
+                    <a target="_self" class="link_compra_vehiculo" href="#">$1,300,000</a>
                 </div>
             </div>
             <div class="panel_vehiculos">
                 <figure>
-                    <img src="img/car1.jpg" alt="imagen_vehiculo">
+                    <img src="assets/img_vehiculos/SUV/mazda-cx-30.jpg" alt="imagen_vehiculo">
                 </figure>
                 <div class="info-carro">
                     <h1>Mazda cx-30</h1>
-                    <button>$25,000</button>
+                    <a target="_self" class="link_compra_vehiculo" href="#">$25,000</a>
                 </div>
             </div>
             <div class="panel_vehiculos">
@@ -206,7 +217,7 @@
                 </figure>
                 <div class="info-carro">
                     <h1>Mazada 3</h1>
-                    <button>$25,335</button>
+                    <a target="_self" class="link_compra_vehiculo" href="#">$25,335</a>
                 </div>
             </div>
             <div class="panel_vehiculos">
@@ -215,7 +226,7 @@
                 </figure>
                 <div class="info-carro">
                     <h1>Volkswagen jetta gli</h1>
-                    <button>$29,235</button>
+                    <a target="_self" class="link_compra_vehiculo" href="#">$29,235</a>
                 </div>
             </div>
             <div class="panel_vehiculos">
@@ -224,7 +235,7 @@
                 </figure>
                 <div class="info-carro">
                     <h1>polestar 2</h1>
-                    <button>$51,300</button>
+                    <a target="_self" class="link_compra_vehiculo" href="#">$51,300</a>
                 </div>
             </div>
             <div class="panel_vehiculos">
@@ -233,7 +244,7 @@
                 </figure>
                 <div class="info-carro">
                     <h1>ford mustang mach-e</h1>
-                    <button>$46,895</button>
+                    <a target="_self" class="link_compra_vehiculo" href="#">$46,895</a>
                 </div>
             </div>
             <div class="panel_vehiculos">
@@ -242,7 +253,7 @@
                 </figure>
                 <div class="info-carro">
                     <h1>Polaris Sportsman XP 100</h1>
-                    <button>$15,499</button>
+                    <a target="_self" class="link_compra_vehiculo" href="#">$15,499</a>
                 </div>
             </div>
             <div class="panel_vehiculos">
@@ -251,7 +262,7 @@
                 </figure>
                 <div class="info-carro">
                     <h1>Arctic Cat Alterra 600</h1>
-                    <button>$11,599</button>
+                    <a target="_self" class="link_compra_vehiculo" href="#">$11,599</a>
                 </div>
             </div>
             <div class="panel_vehiculos">
@@ -260,7 +271,7 @@
                 </figure>
                 <div class="info-carro">
                     <h1>Aerodeslizado</h1>
-                    <button>$450,000</button>
+                    <a target="_self" class="link_compra_vehiculo" href="#">$450,000</a>
                 </div>
             </div>
             <div class="panel_vehiculos">
@@ -269,7 +280,7 @@
                 </figure>
                 <div class="info-carro">
                     <h1>Moto anfibia</h1>
-                    <button>$180,000</button>
+                    <a target="_self" class="link_compra_vehiculo" href="#">$180,000</a>
                 </div>
             </div>
             <div class="panel_vehiculos">
@@ -278,7 +289,7 @@
                 </figure>
                 <div class="info-carro">
                     <h1>APRILIA RS 660 EXTREMA 2023</h1>
-                    <button>$12,000</button>
+                    <a target="_self" class="link_compra_vehiculo" href="#">$12,000</a>
                 </div>
             </div>
             <div class="panel_vehiculos">
@@ -287,7 +298,7 @@
                 </figure>
                 <div class="info-carro">
                     <h1>Maclaren p1</h1>
-                    <button>$1,050,000</button>
+                    <a target="_self" class="link_compra_vehiculo" href="#">$1,050,000</a>
                 </div>
             </div>
             <div class="panel_vehiculos">
@@ -296,7 +307,7 @@
                 </figure>
                 <div class="info-carro">
                     <h1>Porche 918 spyder</h1>
-                    <button>$850,000</button>
+                    <a target="_self" class="link_compra_vehiculo" href="#">$850,000</a>
                 </div>
             </div>
             <div class="panel_vehiculos">
@@ -305,7 +316,7 @@
                 </figure>
                 <div class="info-carro">
                     <h1>Volkswagen taos</h1>
-                    <button>$25,450</button>
+                    <a target="_self" class="link_compra_vehiculo" href="#">$25,450</a>
                 </div>
             </div>
             <div class="panel_vehiculos">
@@ -314,7 +325,7 @@
                 </figure>
                 <div class="info-carro">
                     <h1>Honda accord</h1>
-                    <button>$29,000</button>
+                    <a target="_self" class="link_compra_vehiculo" href="#">$29,000</a>
                 </div>
             </div>
             <div class="panel_vehiculos">
@@ -323,7 +334,7 @@
                 </figure>
                 <div class="info-carro">
                     <h1>Taycan turbo S</h1>
-                    <button>$272,000</button>
+                    <a target="_self" class="link_compra_vehiculo" href="#">$272,000</a>
                 </div>
             </div>
             <div class="panel_vehiculos">
@@ -332,7 +343,7 @@
                 </figure>
                 <div class="info-carro">
                     <h1>Tanque: Abrams M1A2</h1>
-                    <button>$35,000,000</button>
+                    <a target="_self" class="link_compra_vehiculo" href="#">$35,000,000</a>
                 </div>
             </div>
             <div class="panel_vehiculos">
@@ -341,7 +352,7 @@
                 </figure>
                 <div class="info-carro">
                     <h1>KAWASAKI NINJA ZX-6R 2023</h1>
-                    <button>$14,000</button>
+                    <a target="_self" class="link_compra_vehiculo" href="#">$14,000</a>
                 </div>
             </div>
             <div class="panel_vehiculos">
@@ -350,7 +361,7 @@
                 </figure>
                 <div class="info-carro">
                     <h1>koenigsegg regera</h1>
-                    <button>$2,000,000</button>
+                    <a target="_self" class="link_compra_vehiculo" href="#">$2,000,000</a>
                 </div>
             </div>
             <div class="panel_vehiculos">
@@ -359,7 +370,7 @@
                 </figure>
                 <div class="info-carro">
                     <h1>Luxury: bmw x1 $41,00</h1>
-                    <button>$41,000</button>
+                    <a target="_self" class="link_compra_vehiculo" href="#">$41,000</a>
                 </div>
             </div>
             <div class="panel_vehiculos">
@@ -368,7 +379,7 @@
                 </figure>
                 <div class="info-carro">
                     <h1>Hyundai sonata</h1>
-                    <button>$28,000</button>
+                    <a target="_self" class="link_compra_vehiculo" href="#">$28,000</a>
                 </div>
             </div>
             <div class="panel_vehiculos">
@@ -377,7 +388,7 @@
                 </figure>
                 <div class="info-carro">
                     <h1>Tesla model </h1>
-                    <button>$89,880</button>
+                    <a target="_self" class="link_compra_vehiculo" href="#">$89,880</a>
                 </div>
             </div>
             <div class="panel_vehiculos">
@@ -386,7 +397,7 @@
                 </figure>
                 <div class="info-carro">
                     <h1>Caza: F-35 Joint Strike Fighter</h1>
-                    <button>$78,000,000</button>
+                    <a target="_self" class="link_compra_vehiculo" href="#">$78,000,000</a>
                 </div>
             </div>
             <div class="panel_vehiculos">
@@ -395,7 +406,7 @@
                 </figure>
                 <div class="info-carro">
                     <h1>YAMAHA YZF-R1M 202</h1>
-                    <button>$23,100</button>
+                    <a target="_self" class="link_compra_vehiculo" href="#">$23,100</a>
                 </div>
             </div>
             <div class="panel_vehiculos">
@@ -404,7 +415,7 @@
                 </figure>
                 <div class="info-carro">
                     <h1>Huracan performante</h1>
-                    <button>$250,000</button>
+                    <a target="_self" class="link_compra_vehiculo" href="#">$250,000</a>
                 </div>
             </div>
             <div class="panel_vehiculos">
@@ -413,7 +424,7 @@
                 </figure>
                 <div class="info-carro">
                     <h1>Luxury: volvo xc40</h1>
-                    <button>$41,295</button>
+                    <a target="_self" class="link_compra_vehiculo" href="#">$41,295</a>
                 </div>
             </div>
             <!-- plantilla de la vista previa del vehiculo -->

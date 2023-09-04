@@ -1,0 +1,147 @@
+#contenedor_hrz {
+    top: 200px;
+    color: white;
+}
+
+/* caja donde se ubica el precio, nombre y logo */
+.caja_precio_nombre {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+}
+
+.logo_compra {
+    position: absolute;
+    left: 2%;
+    height: 50px;
+}
+
+.nombre_auto {
+    position: absolute;
+    left: 12%;
+}
+
+.precio_auto {
+    position: absolute;
+    right: 0;
+    padding-right: 5%;
+}
+
+/* caja donde esta la descripcion, colores, estadisticas y imagenes */
+.caja_descripcion_color_imagen {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.descripcion_colores {
+    width: 40%;
+}
+
+.descripcion_auto_contenedor {
+    width: 100%;
+    height: 40%;
+    padding: 15px 0px;
+}
+
+.descripcion_auto_ {
+    height: auto;
+}
+
+.imagen {
+    width: 50%;
+}
+
+.imagen_vehiculo {
+    width: 90%;
+}
+
+/* circulos de colores */
+
+.colores_compra {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0px;
+}
+
+.circulo {
+    width: 20px;
+    height: 20px;
+    gap: 2px;
+    cursor: pointer;
+    margin: auto;
+}
+
+.azul {
+    background: blue;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.rojo {
+    background: red;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.violeta {
+    background: purple;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.blanco {
+    background: white;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.negro {
+    background: black;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+/* estadisticas del auto */
+.estadisticas {
+    padding: 15px 0px;
+    width: 100%;
+    height: auto;
+}
+
+/* boton de compra */
+.caja_boton {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 15px 0px;
+}
+
+.compra_vehiculo {
+    width: 120px;
+    height: 30px;
+    text-transform: uppercase;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    margin-right: 69px;
+    color: white;
+    background: rgb(167, 0, 0);
+    border: 2px rgb(112, 0, 0) solid;
+    border-radius: 3px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.compra_vehiculo:hover {
+    background: rgb(214, 214, 214);
+    color: black;
+    border: 2px white solid;
+}
