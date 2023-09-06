@@ -20,6 +20,8 @@
 .nombre_auto {
     position: absolute;
     left: 12%;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
 }
 
 .precio_auto {
@@ -46,16 +48,22 @@
     padding: 15px 0px;
 }
 
-.descripcion_auto_ {
+.descripcion_auto {
     height: auto;
+    font-family: 'Oswald', sans-serif;
 }
 
 .imagen {
+    display: flex;
     width: 50%;
+    align-items: center;
+    justify-content: center;
 }
 
 .imagen_vehiculo {
     width: 90%;
+    border-radius: 15px;
+    box-shadow: 2px 4px 10px black;
 }
 
 /* circulos de colores */
@@ -117,12 +125,16 @@
     height: auto;
 }
 
+.texto_estadistica {
+    font-family: 'Oswald', sans-serif;
+}
+
 /* boton de compra */
 .caja_boton {
     display: flex;
     align-items: center;
     justify-content: right;
-    padding: 15px 0px;
+    padding: 13px 0px;
 }
 
 .compra_vehiculo {
@@ -138,6 +150,7 @@
     border: 2px rgb(112, 0, 0) solid;
     border-radius: 3px;
     font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
 }
 
 .compra_vehiculo:hover {
@@ -145,3 +158,25 @@
     color: black;
     border: 2px white solid;
 }
+
+.back_index {
+    padding: 4px 18.21px;
+    text-transform: uppercase;
+    color: black;
+    margin-right: 69px;
+    color: white;
+    background: rgb(167, 0, 0);
+    border: 2px rgb(112, 0, 0) solid;
+    border-radius: 3px;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+    text-align: center;
+}
+
+.back_index:hover {
+    background: rgb(214, 214, 214);
+    color: black;
+    border: 2px white solid;
+}
+
+/* font-family: 'Oswald', sans-serif; */
