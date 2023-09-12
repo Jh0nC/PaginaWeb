@@ -19,6 +19,7 @@
     border: 2px rgb(112, 0, 0) solid;
     border-radius: 3px;
     font-family: 'Ubuntu', sans-serif;
+    cursor: pointer;
 }
 
 #select_filtro:hover {
@@ -45,9 +46,16 @@
     border: 2px rgb(112, 0, 0) solid;
     border-radius: 3px;
     font-family: 'Ubuntu', sans-serif;
+    cursor: pointer;
 }
 
 .boton_filtro:hover {
+    background: rgb(214, 214, 214);
+    color: black;
+    border: 2px white solid;
+}
+
+.boton_filtro_seleccionado {
     background: rgb(214, 214, 214);
     color: black;
     border: 2px white solid;

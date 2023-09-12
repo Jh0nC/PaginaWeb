@@ -3,8 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- importes -->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/style_vista_previa.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="assets/js/jquery-3.7.1.js"></script>
+    <script src="assets/js/script.js"></script>
     <!-- importe de las tipografias -->    
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Ubuntu:wght@500&family=Yellowtail&display=swap');
@@ -36,9 +40,9 @@
     <div id="contenedor_hrz">
         <!-- clasificacion de los autos -->
         <div id="filtro_vehiculos">
-            <button class="boton_filtro">atv</button>
+            <button class="boton_filtro" category="todos">todos</button>
             <button class="boton_filtro">autos</button>
-            <button class="boton_filtro">combustion</button>
+            <button class="boton_filtro">atv</button>
             <button class="boton_filtro">electricos</button>
             <button class="boton_filtro">especiales</button>
             <button class="boton_filtro">motos</button>
@@ -48,7 +52,7 @@
         <!-- galeria de vehiculos, segun clasificacion seleccionada -->
         <main id="vista_previa">
             <!-- plantilla -->
-            <div class="panel_vehiculos">
+            <div class="panel_vehiculos" category="todos">
                 <figure>
                     <img src="#" alt="imagen_vehiculo">
                 </figure>
